@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Black And White Bootstrap Landing Page / Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <section id="intro" style="background-image: url('img/ein-steig.jpg');" class="intro">       
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 mx-auto">
+              <p class="italic">Welcome to my portofolio</p>
+              <h1>Reda Mohamed Elhadidy</h1>
+              <p class="italic">Senior Android developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container"><a href="#intro" class="navbar-brand link-scroll"><img src="img/logo.png" alt="" class="img-fluid"></a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About </a></li>
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Skills</a></li>
+              <li class="nav-item"><a href="#portfolio" class="nav-link link-scroll">Projects</a></li>
+              <li class="nav-item"><a href="#text" class="nav-link link-scroll">Experiences</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Education</a></li>
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Important links</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- about-->
+    <section id="about" class="text">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="heading">About me</h2>
+            <p class="lead" >Android (Java, kotlin)</p>
+            <p>More than eight years of full-time experience in mobile development
+with a focus on learning more than one platform -Android for six years
+and j2me and Blackberry- and architectures.</p>
+            <p> I'm seeking a challenging
+career with Multinational Companies. </p>
+          </div>
+          <div class="col-lg-5 mx-auto">
+            <p><img src="img/japan-mountains.png" alt="" class="img-fluid rounded-circle"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end-->
+    <!-- Services-->
+    <section id="services" style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-lg-12">
+            <h2 class="heading">Skills</h2>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-mobile"></i></div>
+                  <h5>Android</h5>
+                  <p>Java, Kotlin</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-database"></i></div>
+                  <h5>Database</h5>
+                  <p>mysql, sqlite</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-code-fork"></i></div>
+                  <h5>S-Control</h5>
+                  <p>Git, SVN</p>
+                </div>
+              </div>
+            <div class="col-md-3">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-leanpub"></i></div>
+                  <h5>Other</h5>
+                  <p>MVVM, MVP<br>
+                  Rx-Java<br>
+                  Python</p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-globe"></i></div>
+                  <h5>Languages</h5>
+                  <p>Arabic, Native language
+                  <br>English, professional Working Proficiency</p>
+                </div>
+              </div>
+            <div class="col-md-3">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-tint"></i></div>
+                  <h5>Interests</h5>
+                  <p>Swimming</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services end-->
+    
+    <!-- Portfolio / gallery-->
+    <section id="portfolio" class="gallery">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-8">
+                <h2 class="heading">Projects sample</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="text-center" align="text-center"><a href="https://play.google.com/store/apps/details?id=com.futuregroup.transparant&hl=en&gl=US" data-title="Gotransparent" class="has-border"><img src="https://play-lh.googleusercontent.com/H_R8vae9ZMU6SqKyjD7Mbkz0TfFnFiBxTagQKJpdUYgVpNRRBeQlUZuBBwJA6L-duIo=s180-rw" alt="image" class="rounded-circle"></a>
+                  <p>Gotransparent</p></div>
+              </div>
+              <div class="col-md-3">
+                <div class="text-center" ><a href="https://play.google.com/store/apps/details?id=sa.aapps.balaag"data-title="balaag" class="has-border"><img src="https://play-lh.googleusercontent.com/QKHiSHDLSTUt616rEK-tssHOcDdayN8SyP6jHnTzs4lxDzdbVFrblcOxLz1Kp6M6rsk=s180-rw" alt="image" class="rounded-circle"></a>
+                 <p>Balaag</p></div>
+              </div>
+              <div class="col-md-3">
+                <div class="text-center"><a href="https://play.google.com/store/apps/details?id=com.islamhouse.app" data-title="islamhouse" class="has-border"><img src="https://play-lh.googleusercontent.com/orZt2-eN3qihlOdjPY21DeKo3arnehNJl5_y2-NeYFS1vD2K6zy_cI-FK8JKiBGgy7U1=s180-rw" alt="image" class="rounded-circle"></a>
+                 <p>Islam-house</p> </div>
+              </div>
+              <div class="col-md-3">
+                <div class="text-center"><a href="https://play.google.com/store/apps/details?id=com.futuregroup.islamhouse.quran" data-title="quran" class="has-border"><img src="https://play-lh.googleusercontent.com/vV_3rw3MEaQmKbTpLQxekHM1VSucmJU9WTfRQ7UoYBJgsv9OLAwKYiQnZdZ1d7Js-5U=s180-rw" alt="image" class="rounded-circle"></a>
+                  <p>Quran</p></div>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-3">
+                <div class="text-center"><a href="https://play.google.com/store/apps/details?id=com.islamhouse.masaelmoslemen" data-title="masaelmoslemen" class="has-border"><img src="https://play-lh.googleusercontent.com/arDwKJPL_RWtISA4eYQo_DC-wnieV5V8hhcXUqILSSPt2ipnaG-g9VMea5yYGEMyqg=s180-rw" alt="image" class="rounded-circle"></a>
+                  <p>Masael-Moslemen</p></div>
+              </div>
+              <div class="col-md-3">
+                <div class="text-center"><a href="https://play.google.com/store/apps/details?id=com.islamhouse.faqsaboutislam" data-title="faqsaboutislam" class="has-border"><img src="https://play-lh.googleusercontent.com/N59CRkuYVtIMPdkTM74TKBazCASvHEbh-gL_CgtGu_4Kzf91VJ2O3ZBtKgf9bSSpGq8=s180-rw" alt="image" class="rounded-circle"></a>
+                  <p>FAQs-about-Islam</p></div>
+              </div>
+              <div class="col-md-3">
+                <div class="text-center"><a href="https://play.google.com/store/apps/details?id=com.islamhouse.quranmoalem"  data-title="quranmoalem" class="has-border"><img src="https://play-lh.googleusercontent.com/NRBk6Cy6V-Zw7mTa7MMguQU82oUlQ_eMOhQK-LclF-6o9Bp3zwkdMlSFeK4uyWXToKKx=s180-rw" alt="image" class="rounded-circle"></a>
+                  <p>Quran-Moalem</p></div>
+              </div>
+              <div class="col-md-3">
+                <div class="text-center"><a href="https://apkpure.com/%D8%A3%D9%87%D8%AF%D8%A7%D9%81%D9%8A/com.smaris.el_hadaf" data-title="el_hadaf" class="has-border"><img src="https://image.winudf.com/v2/image/Y29tLnNtYXJpcy5lbF9oYWRhZl9pY29uXzBfZGQ1YmQ5NDQ/icon.png?w=170&fakeurl=1" alt="image" class="rounded-circle"></a>
+                  <p>Target</p></div>
+              </div>
+            </div>
+             <div class="row">
+              <div class="col-md-3">
+                <div class="text-center"><a href="https://apkpure.com/easy-charge-services/com.smaris.views" data-title="
+Easy Charge & Services" class="has-border"><img src="https://image.winudf.com/v2/image/Y29tLnNtYXJpcy52aWV3c19pY29uXzBfZGY5ZTNhOTA/icon.png?w=170&fakeurl=1" alt="image" class="rounded-circle"></a>
+<p>Easy charge & services</p></div>
+              </div>
+
+               <div class="col-md-3">
+                <div class="text-center"><a href="https://github.com/mavenusrs" data-title="
+Easy Charge & Services" class="has-border"><img src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU=s180-rw" alt="image" class="rounded-circle"></a>
+<p>Github samples</p></div>
+
+              </div>
+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio / gallery end-->
+    <!-- text page-->
+    <section id="text" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Work Experience</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <p><B>Unitlabs co.​ , ​ </B>Cairo — ​ Senior Android Developer<br> Software company in Egypt <i>A
+PR 2015 - PRESENT</i></p>
+<p><B>SIT Egypt co.​ </B>, ​ Cairo — S
+enior Android Developer <br>
+Software house in Egypt <i>JAN 2015 - APR 2015</i></p>
+<p><B> Freelancer, ​ Rakaaiz co. — </B>Freelance Android developer </br>
+ <i> JAN 2014 - JUN 2015 </i></p>
+<p> <B> AlZWAD co., </B> Cairo — ​ Front-end developer <br>
+Software house in Egypt ​<i> JAN 2012 - OCT 2014 </i> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- text page end-->
+    <!-- contact-->
+    <section id="contact" style="background-color: #fff;" class="text-page pb-4"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="heading">Education</h2>
+            <div class="row">
+             
+              <div class="col-lg-6">
+                <p><B>Cairo University</B>​ , Bachelor in Computer Science. <br>
+Faculty of Computers and Information System Cairo Egypt <br>
+<i>SEP 2001 - AUG 2008
+Degree: 62%</i></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div ><br></div>
+    <footer style="background-color: #111;">
+      <div class="container"> 
+        <div class="row copyright">
+          <div class="col-md-6">
+            <p class="mb-md-0 text-center text-md-left">&copy;2021 Reda Elhadidy</p>
+          </div>
+          <div class="col-ld-6">
+            <p class="social" ><a href="https://www.linkedin.com/in/reda-elhadidy-59aa221b3/" title="linkedin" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="Tel:00201007767781" title="Call" class="Blondie"><i class="fa fa-mobile"></i></a>
+              <a href="mailto:redaelhadedy@gmail.com" title="Email" class="gplus"><i class="fa fa-google-plus"></i></a>
+              <a href="https://www.instagram.com/mavenusers" title="instagram" class="instagram"><i class="fa fa-instagram"></i></a></p>
+
+            <p class="credit mb-md-0 text-center text-md-center">Template by <a href="https://bootstrapious.com/p/how-to-build-a-working-bootstrap-contact-form">Bootstrapious</a></p>
+            <!-- Please do not remove the backlink to us. It is part of the licence conditions. Thanks for understanding :)-->
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
